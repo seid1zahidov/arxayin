@@ -1,0 +1,453 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 0 3rem;
+}
+a{
+    text-decoration: none;
+}
+#First .container .firstall{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#First.container .firstall .logo{
+    overflow: hidden;
+    width: 15%;
+    padding: 2rem 0;
+}
+#First.container .firstall .logo img{
+    width: 100%;
+    opacity: 1;
+}
+#First .container .firstall .navbar{
+    width: 50%;
+    margin-left: 170px;
+    color: #1b1b1b;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 22px;
+    letter-spacing: .1em;
+}
+#First .container .firstall .navbar a{
+    color: #fff;
+}
+#First .container .firstall .navbaritem{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+#First .container .firstall .icon{
+    width: 15%;
+    font-size: 18px;
+}
+#First .container .firstall .icon i{
+    margin-left: 15px;
+    color: #fff;
+}
+#Firstfon{
+    display: none;
+}
+#Firstfon .container .firstall{
+    padding: 20px 2rem;
+
+}
+#Firstfon .firstall .all{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Firstfon .firstall .all .logo img{
+    margin-left: 3rem;
+    width: 45%;
+
+}
+@media(max-width:576px){
+    #first{
+        display: none;
+    }
+    #Firstfon{
+        display: block;
+    }
+
+}
+#secont{
+    height: 100vh;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/home-1-slider-image-1.jpg);
+    background-position: center;
+    padding: 10rem 0;
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#secont .left{
+    width: 40%;
+}
+#secont .sliderall{
+    width: 60%;
+    margin-top: 60px;
+    text-align: center;
+}
+
+#secont .sliderall .text h1{
+     color: #fff;
+     font-size: 68px;
+     margin-bottom: 20px;
+     
+}
+#secont .sliderall   .text2 p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+    margin-top: 20px;
+} 
+#secont .sliderall a{
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 23px 50px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+}
+#secont .sliderall  img{
+    width: 15%;
+}
+#secontfon{
+    display: none;
+}
+#secontfon{
+    height: 100vh;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/home-1-slider-image-1.jpg);
+    background-position: center;
+    padding: 10rem 0;
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#secontfon .left{
+    width: 40%;
+}
+#secontfon .slideralls{
+    width: 60%;
+    margin-top: 60px;
+    text-align: center;
+}
+
+#secontfon .slideralls .text h1{
+     color: #fff;
+     font-size: 68px;
+     margin-bottom: 20px;
+     
+}
+#secontfon .slideralls a{
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 23px 50px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+}
+#secontfon .slideralls  img{
+    width: 15%;
+}
+@media(max-width:576px){
+    #secont{
+        display: none;
+    }
+    #secontfon{
+        display: block;
+    }
+}
+
+#tree{
+    padding: 6rem;
+}
+#tree .container .treeall .up{
+    text-align: center;
+}
+#tree .container .treeall .up h3{
+    font-weight: 100;
+    color: #262626;
+    font-size: 50px;
+    letter-spacing: 2px
+}
+#tree .container .treeall .up img{
+    padding: 1rem;
+    width: 20%;
+}
+#tree .container .treeall .up p{
+    font-size: 20px;
+    opacity: 0.7;
+}
+#tree .container .treeall .down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#tree .container .treeall .down .box img{
+    margin-left: 1.5rem;
+    padding-top: 5rem;
+}
+#tree .container .treeall .down .box h1{
+    margin-top: 7px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 100;
+}
+#tree .container .treeall .down .box p{
+    margin-top: 10px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+#four{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+    padding: 6.5rem 0;
+}
+#four .container .fourall{
+    margin-top: -1rem;
+    text-align: center;
+}
+#four .container .fourall .up h3{
+    font-weight: 100;
+    color: #262626;
+    font-size: 50px;
+    letter-spacing: 2px
+}
+#four .container .fourall .up img{
+    padding: 1rem;
+    width: 20%;
+}
+#four .container .fourall .up p{
+    font-size: 20px;
+    opacity: 0.7;
+}
+#four .container .fourall .downall{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#four .container .fourall .box{
+    padding: 5;
+    padding-top: 5rem;
+    width: 25%;
+    margin-left: 3rem;
+}
+#four .container .fourall .box img{
+    width: 100%;
+}
+#four .container .fourall .box h5{
+    padding: 1rem;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 100;
+}
+#four .container .fourall .box p{
+    font-weight: 100;
+    opacity: .7;
+}
+#five{
+    padding: 3rem 0;
+}
+#five .fiveall .up{
+    overflow: hidden;
+    height: 400px;
+}
+#five .fiveall .down{
+    margin-left: 37rem;
+    margin-top: -17rem;
+    width: 13%;
+
+}
+#five .fiveall .down img{
+    width: 100%;
+}
+#six{
+    padding: 6rem;
+}
+#six .container .sixall{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#six .container .sixall .box .up h5{
+    font-size: 55px;
+    color: #be9c79;
+    letter-spacing: .05em;
+    margin-left: 3rem;
+}
+#six .container .sixall .box .up h3{
+    margin-top: .5rem;
+    font-size: 20px;
+    color: #262626;
+    font-family: Marcellus,sans-serif;
+    font-weight: 100
+}
+#six .container .sixall .box .up p{
+    font-size: 16px;
+    margin-top: .5rem;
+    opacity: 0.6;
+}
+#seven{
+    padding: 6rem 2rem;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+}
+#seven .container .sevenall{
+    margin-top: -1rem;
+    text-align: center;
+}
+#seven .container .sevenall .up h3{
+    font-weight: 100;
+    color: #262626;
+    font-size: 50px;
+    letter-spacing: 2px
+}
+#seven .container .sevenall .downall{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#seven .container .sevenall .downall .down{
+    padding-top: 3rem;
+    width: 80%;
+}
+#seven .container .sevenall .downall .down img{
+    width: 100%;
+}
+#seven .container .sevenall .downall .down h6{
+    font-size: 22px;
+    font-weight: 100;
+    opacity: .8;
+}
+#seven .container .sevenall .downall .down p{
+    padding: 0.5rem;
+    font-size: 20px;
+    opacity: .5;
+}
+#seven .container .sevenall .up img{
+    padding: 1rem;
+    width: 20%;
+}
+#seven .container .sevenall .up p{
+    font-size: 20px;
+    opacity: 0.7;
+}
+#eight{
+    padding: 3rem 0;
+    width: 100%;
+}
+#eight .eightall .up h3{
+    font-weight: 100;
+    color: #262626;
+    font-size: 50px;
+    letter-spacing: 2px
+}
+#eight .eightall .up img{
+    padding: 1rem;
+    width: 20%;
+}
+
+#eight .eightall .up p{
+    font-size: 20px;
+    opacity: 0.7;
+    margin-bottom: 2rem;
+}
+#eight .downtest{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#eight .downtest .downall{
+    width: 24%;
+}
+#eight .downtest .downall .down{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+#eight .eightall .down img{
+    width: 100%;
+}
+#eight .eightall{
+    margin-top: -1rem;
+    text-align: center;
+}
+#nine{
+    padding: 0 0;
+}
+#nine .ninell{
+    display: flex;
+    margin-bottom: 2rem;
+}
+#nine .ninell img{
+    width: 100%;
+}
+#ten{
+    padding: 5rem;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-background-img-1.jpg);
+}
+#ten .tenall{
+    display: flex;
+}
+#ten .tenall .left{
+    width: 80%;
+}
+#ten .tenall .left h4{
+    color: #262626;
+    font-family: Marcellus,sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+#ten .tenall .right button{
+    background-color: #be9c79;
+    padding: 1.5rem 0 1rem 4rem;
+    border: 1px solid transparent;
+    color: #fff;
+}
+#eleven{
+    padding: 3rem 0;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/footer-top-img-1.jpg);
+}
+#eleven .elevennn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+#eleven .elevenall p{
+    margin-top: 1rem;
+    color: #fff;
+}
+#eleven .elevenall h1{
+    margin-top: 4rem;
+    color: #fff;
+}
+#eleven .elevenall h6{
+    font-weight: 100;
+    font-size: 17px;
+    color: #fff;
+}
+#eleven .elevenall h2{
+    margin: 3rem;
+    color: #fff;
+}
+#eleven .elevenall input{
+    padding: 1.5rem 0 1rem 7rem;
+    font-size: 15px;
+    color: #fff;
+    padding-right: 10rem;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
